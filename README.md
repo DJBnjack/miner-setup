@@ -33,7 +33,7 @@ Then another enter
 
 Then:
 ```bash
-wget -qO- https://raw.githubusercontent.com/DJBnjack/miner-setup/master/amd2.sh | sh
+wget -qO- https://raw.githubusercontent.com/DJBnjack/miner-setup/master/amd.sh | sh
 ```
 
 
