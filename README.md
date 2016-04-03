@@ -35,8 +35,9 @@ Then:
 ```bash
 sudo su
 wget -qO- https://raw.githubusercontent.com/DJBnjack/miner-setup/master/amd.sh | sh
-reboot
 ```
+
+And... REBOOT!
 
 ## Final steps for AMD
 ```bash
