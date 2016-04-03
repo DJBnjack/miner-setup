@@ -35,6 +35,15 @@ Then:
 ```bash
 sudo su
 wget -qO- https://raw.githubusercontent.com/DJBnjack/miner-setup/master/amd.sh | sh
+reboot
 ```
 
+## Final steps for AMD
+```bash
+sudo su
+apt-get install fglrx-updates
+aticonfig --adapter=all --initial
+aticonfig --list-adapters
+```
 
+All set!
