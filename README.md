@@ -33,6 +33,7 @@ Then another enter
 
 Then:
 ```bash
+sudo su
 wget -qO- https://raw.githubusercontent.com/DJBnjack/miner-setup/master/amd.sh | sh
 ```
 
