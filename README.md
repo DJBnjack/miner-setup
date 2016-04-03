@@ -17,4 +17,3 @@ wget -qO- https://raw.githubusercontent.com/DJBnjack/miner-setup/master/ethereum
 wget -qO- https://raw.githubusercontent.com/DJBnjack/miner-setup/master/importchain.sh
 ```
 Then wait till it's on the last block ([stats](https://ethstats.net/))
-
