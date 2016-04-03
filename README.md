@@ -25,9 +25,11 @@ and download AMD-APP-SDK-linux-v2.9-1.599.381-GA-x64.tar.bz2
 Then run:
 ```bash
 sudo su
-wget -qO- https://raw.githubusercontent.com/DJBnjack/miner-setup/master/amd1.sh | sh
+tar xvf AMD-APP-SDK-linux-v2.9-1.599.381-GA-x64.tar.bz2
+./AMD-APP-SDK-v2.9-1.599.381-GA-linux64.sh
 ```
-Press enter 300x and then y
+Press q and then y
+Then another enter
 
 Then:
 ```bash
