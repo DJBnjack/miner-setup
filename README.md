@@ -46,5 +46,33 @@ apt-get install fglrx-updates
 aticonfig --adapter=all --initial
 aticonfig --list-adapters
 ```
+## Installing mining proxy
+```bash
+sudo apt-get install python-twisted
+git clone https://github.com/Atrides/eth-proxy.git
+```
 
-All set!
+## Installing Ethminer
+```bash
+sudo add-apt-repository ppa:ethereum/ethereum-qt
+sudo add-apt-repository ppa:ethereum/ethereum
+sudo apt-get update
+sudo apt-get install cpp-ethereum
+```
+
+# Running the miner
+```bash
+python ./eth-proxy.py
+```
+
+```bash
+geth --rpc=true --rpcport 8000 --rpccorsdomain '"*"' 2>> geth.log
+```
+
+```bash
+tail -f geth.log
+```
+
+```bash
+ethminer --farm-recheck 200 -G -F http://127.0.0.1:8080/rig1
+```
